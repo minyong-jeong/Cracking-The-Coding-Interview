@@ -15,10 +15,15 @@ public class MatrixRotation {
 			for (int i = first; i < last; i++) {
 				int offset = i - first;
 				int top = arr[first][i];
-				arr[first][i] = arr[last-offset][first]; 			// left -> top
-				arr[last-offset][first] = arr[last][last-offset]; 	// bottom -> left
-				arr[last][last-offset] = arr[i][last]; 				// right -> bottom
-				arr[i][last] = top; 								// top -> right
+				
+				// left -> top
+				arr[first][i] = arr[last-offset][first];
+				// bottom -> left
+				arr[last-offset][first] = arr[last][last-offset];
+				// right -> bottom
+				arr[last][last-offset] = arr[i][last];
+				// top -> right
+				arr[i][last] = top;
 			}
 		}
 		
