@@ -36,11 +36,6 @@ public class DeleteDuplicates {
 		
 		LinkedListNode head = first;
 		deleteDuplicates(head);
-		
-		LinkedListNode cur = first;
-		while (cur != null) {
-			System.out.println(cur.data);
-			cur = cur.next;
-		}
+		LinkedListNode.printList(first);
 	}
 }

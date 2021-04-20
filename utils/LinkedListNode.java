@@ -12,4 +12,11 @@ public class LinkedListNode {
 	public void setNext(LinkedListNode next) {
 		this.next = next;
 	}
+
+    public static void printList(LinkedListNode head) {
+        while (head != null) {
+            System.out.println(head.data);
+            head = head.next;
+        }
+    }
 }
