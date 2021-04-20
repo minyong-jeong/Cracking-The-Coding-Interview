@@ -1,6 +1,7 @@
 /*
  * Question 1.9
  */
+package chapter01;
 
 public class StringRotation {
 	public static boolean isSubString(String str1, String str2) {

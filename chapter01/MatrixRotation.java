@@ -1,6 +1,7 @@
 /*
  * Question 1.6
  */
+package chapter01;
 
 public class MatrixRotation {
 	public static boolean rotate(int[][] arr) {

@@ -1,6 +1,7 @@
 /*
  * Question 1.6
  */
+package chapter01;
 
 public class CompressString {
 	public static String compress(String str) {

@@ -1,6 +1,7 @@
 /*
  * Question 1.4 
  */
+package chapter01;
 
 import java.util.HashMap;
 import java.util.Map;

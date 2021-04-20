@@ -1,6 +1,9 @@
 /*
  * Question 2.1
  */
+package chapter02;
+
+import utils.LinkedListNode;
 
 public class DeleteDuplicates {
 	public static void deleteDuplicates(LinkedListNode head) {
@@ -39,19 +42,5 @@ public class DeleteDuplicates {
 			System.out.println(cur.data);
 			cur = cur.next;
 		}
-	}
-}
-
-class LinkedListNode {
-	public int data;
-	public LinkedListNode next = null;
-	
-	public LinkedListNode() { }
-	public LinkedListNode(int data) {
-		this.data = data;
-	}
-	
-	public void setNext(LinkedListNode next) {
-		this.next = next;
 	}
 }

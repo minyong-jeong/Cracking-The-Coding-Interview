@@ -1,6 +1,7 @@
 /*
  * Question 1.3
  */
+package chapter01;
 
 public class ReplaceSpaces {
     public static void replaceSpaces(char[] str, int trueLength) {

@@ -1,6 +1,7 @@
 /*
  * Question 1.5
  */
+package chapter01;
 
 public class OnEditAway {
 	public static boolean onEditAway(String str1, String str2) {

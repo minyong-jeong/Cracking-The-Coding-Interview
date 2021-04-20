@@ -1,6 +1,7 @@
 /*
  * Question 1.1
  */
+package chapter01;
 
 public class IsUniqueChars {
 	public static boolean isUniqueChars(String str) {

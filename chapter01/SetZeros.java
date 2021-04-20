@@ -1,6 +1,7 @@
 /*
  * Question 1.8
  */
+package chapter01;
 
 public class SetZeros {
 	public static void setRowZero(int[][] matrix, int row) {

@@ -1,6 +1,7 @@
 /*
  * Question 1.2
  */
+package chapter01;
 
 public class Permutation {
 	public static boolean permutation(String str1, String str2) {
